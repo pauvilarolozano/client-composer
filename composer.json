@@ -1,0 +1,21 @@
+{
+    "name": "pauvilarolozano/client-composer",
+    "description": "Packagist package for create clients",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Pau Vilaró Lozano",
+            "email": "pau.vilaro@gracia.lasalle.cat"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "pauvilarolozano\\ClientComposer\\": "src/"
+        }
+    }
+}
